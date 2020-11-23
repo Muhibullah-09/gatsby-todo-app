@@ -2,7 +2,7 @@ const {ApolloServer, gql} = require('apollo-server-lambda')
 const faunadb=require('faunadb')
 const q = faunadb.query
 
-const client = new faunadb.Client({secret:process.env.FAUNADB_ADMIN_SECRET})
+const client = new faunadb.Client({secret:"fnAD7YOU2wACBWl8iQcLTPa6F5S3_OAC6vZbY9B9"})
 
 // construct schema using glq
 
@@ -30,7 +30,7 @@ const resolvers = {
                 return []
             }else{
                 const results = await client.query(
-                    q.Paginate(q.Match(q.Index("todos_by_owner"), user))
+                    q.Paginate(q.Match(q.Index("todolist"), user))
                 );
                 return results.data.map(([ref,text,done])=>{
                     return {
@@ -47,7 +47,7 @@ const resolvers = {
                 throw new Error("Must be authenticated to add todos")
             }
             const results = await client.query(
-                q.Create(q.Collection("todos"),{
+                q.Create(q.Collection("list"),{
                     data:{
                         text,
                         done:false,
