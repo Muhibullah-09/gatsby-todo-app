@@ -1,0 +1,30 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.7",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@theme-ui/presets": "^0.3.0",
+    "apollo-link-context": "^1.0.20",
+    "faunadb": "^4.0.0",
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-create-client-paths": "^2.4.0",
+    "gatsby-plugin-fontawesome-css": "^1.0.0",
+    "netlify-identity-widget": "^1.9.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "theme-ui": "^0.4.0-rc.12"
+  },
+  "devDependencies": {},
+  "author": "",
+  "description": ""
+}

@@ -1,12 +1,17 @@
 {
-  "name": "gatsby-todo-app",
+  "name": "project12c",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Muhibullah-09/gatsby-todo-app.git",
-  "author": "Muhibullah Khan Kamali <57056374+Muhibullah-09@users.noreply.github.com>",
+  "repository": "https://github.com/Mahmood787/Project12c.git",
+  "author": "Mahmood787 <ali_khan87@live.com>",
   "license": "MIT",
   "private": true,
-  "workspaces":[
+  "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@apollo/client": "^3.2.7",
+    "gatsby-cli": "^2.13.1",
+    "gatsby-plugin-create-client-paths": "^2.4.0"
+  }
 }
