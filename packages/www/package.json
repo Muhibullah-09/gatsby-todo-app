@@ -17,6 +17,7 @@
     "apollo-link-context": "^1.0.20",
     "faunadb": "^4.0.0",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-apollo": "^3.0.2",
     "gatsby-plugin-create-client-paths": "^2.4.0",
     "gatsby-plugin-fontawesome-css": "^1.0.0",
     "netlify-identity-widget": "^1.9.1",
