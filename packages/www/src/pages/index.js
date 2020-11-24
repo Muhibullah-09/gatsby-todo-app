@@ -6,7 +6,7 @@ import { IdentityContext } from '../../netlify-identity-context'
 export default props => {
     const { user, identity: netlifyIdentity } = useContext(IdentityContext)
     return (
-        <Container>
+        <Container> 
             <Flex as="nav">
                 <NavLink as={Link} to="/" p={2}> Home</NavLink>
                 <NavLink as={Link} to="/app" p={2}> Dashboard</NavLink>
