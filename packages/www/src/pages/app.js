@@ -7,13 +7,13 @@ let DashLoggedOut = ()=> {
     const {user, identity:netlifyIdentity} = useContext(IdentityContext)
     return (
         <Container>       
-            <Flex sx={{flexDirection:"column", margin:"auto"}} pt={6}>
-                <Heading as="h1" p={4} sx={{margin:"auto"}}>Wellcome to Serverless Todo App</Heading>
+            <Flex sx={{ flexDirection: "column", padding: 3, textAlign: "center" }}>
+                <Heading as="h1">Serverless Todo App</Heading>
                 <Button 
-                    sx={{marginTop:2, color:"black", margin:"auto"}}
+                    sx={{ marginTop: 2, color: 'black', fontFamily: 'monospace', cursor: 'pointer' }}
                     onClick={()=>netlifyIdentity.open()}
                     >
-                        Login To Create Todos
+                        Add Todoist
                 </Button>
             </Flex>
     </Container>
