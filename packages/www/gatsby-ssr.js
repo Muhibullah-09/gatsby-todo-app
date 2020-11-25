@@ -1,1 +1,2 @@
+//The file gatsby-browser.js lets you respond to actions within the browser, and wrap your site in additional components. The Gatsby Browser API gives you many options for interacting with the client-side of Gatsby.
 export { wrapRootElement } from './src/apollo/wrap-root-element';

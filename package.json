@@ -1,9 +1,9 @@
 {
-  "name": "project12c",
+  "name": "gatsby-todoapp",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Mahmood787/Project12c.git",
-  "author": "Mahmood787 <ali_khan87@live.com>",
+  "repository": "https://github.com/Muhibullah-09/gatsby-todo-app.git",
+  "author": "Muhibullah Khan Kamali <57056374+Muhibullah-09@users.noreply.github.com>",
   "license": "MIT",
   "private": true,
   "workspaces": [
