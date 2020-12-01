@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/home/muhib/Muheeb/Hello/gatsby-todo-app-deploy/packages/www/node_modules/gatsby-plugin-fontawesome-css/gatsby-ssr'),
+      plugin: require('/home/muhib/Muheeb/GitHub/gatsby-todo-app-final/packages/www/node_modules/gatsby-plugin-material-ui/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/muhib/Muheeb/Hello/gatsby-todo-app-deploy/packages/www/gatsby-ssr'),
+      plugin: require('/home/muhib/Muheeb/GitHub/gatsby-todo-app-final/packages/www/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
