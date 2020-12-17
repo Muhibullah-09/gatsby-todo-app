@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, Checkbox, Flex, Label, Text } from "theme-ui";
+import { Checkbox, Flex, Label, Text } from "theme-ui";
 
 const Todo = ({ todo, onChange }) => {
   const [content, setContent] = useState(todo.content);

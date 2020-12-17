@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Button, Flex, NavLink } from "theme-ui";
+import { Flex, NavLink } from "theme-ui";
 import { Link } from "gatsby";
 import { IdentityContext } from "../../netlify-identity-context";
 
